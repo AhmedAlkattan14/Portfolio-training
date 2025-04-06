@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Alegreya", serif;
+  line-height: 1.6;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  width: 90%;
+  margin-inline: auto;
+}
+
+#home {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.247)),
+    url(../images/drew-coffman-1872.jpg) center center/cover;
+  color: white;
+}
+.nav-bar {
+  padding: 15px;
+}
+.logo img {
+  margin-top: 15px;
+  width: 165px;
+  float: left;
+  filter: brightness(0) invert(1);
+}
+.clear {
+  clear: both;
+}
+.nav-list {
+  float: right;
+  margin-top: 20px;
+}
+.nav-item a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.nav-item a:hover {
+  color: #8e7754;
+}
+.nav-item {
+  display: inline-block;
+  margin-inline: 10px;
+}
+/* --------------home content ----------------*/
+.home-content {
+  text-align: center;
+  margin-top: 100px;
+}
+.home-heading-top {
+  font-size: 35px;
+  color: rgb(231, 160, 94);
+}
+.home-heading {
+  font-size: 70px;
+}
+.home-sub {
+  font-size: 25px;
+}
+
+.btn a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 16px;
+}
+button {
+  margin-inline: 4px;
+  border: none;
+  border-radius: 4px;
+}
+button,
+a {
+  color: inherit;
+}
+.btn-transparent {
+  margin-block: 30px;
+  padding: 18px 30px;
+  border: 2px solid #eef0f3;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-transparent:hover {
+  background-color: #ffffff;
+  color: black;
+}
+.btn-solid {
+  margin-block: 30px;
+  padding: 20px 30px;
+  background-color: #8e7754;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-solid:hover {
+  background-color: white;
+  color: black;
+}
+
+/*----------------- who are we ----------------- */
+#about {
+  margin-block: 70px;
+}
+.img-two {
+  width: 45%;
+  float: left;
+}
+.img-two .image-about {
+  width: 100%;
+  display: block;
+}
+.title-two {
+  font-weight: 100;
+  font-size: 45px;
+}
+.heading-two {
+  width: 45%;
+  float: right;
+  margin-top: 40px;
+}
+.parg-two {
+  margin-block: 17px;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.list-item {
+  list-style: none;
+}
+.icon-list {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #afa9a1;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 8px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+}
+.icon-list i {
+  color: #8e7754;
+  font-size: 20px;
+  vertical-align: middle;
+}
+span {
+  font-size: 20px;
+}
+
+/* --------------Our location ----------------*/
+#our-location {
+  /* margin-block: 100px; */
+  height: 100vh;
+  background-color: #f2f8f0;
+}
+.img-location .photo {
+  margin-top: 50px;
+  background-color: #8e7754;
+  width: 45%;
+  float: right;
+}
+img .photo {
+  width: 100%;
+  display: block;
+}
+.heading-three {
+  width: 50%;
+  float: left;
+  margin-top: 150px;
+}
+.head-localtion {
+  font-size: 40px;
+  font-weight: 100;
+}
+.title-location,
+.title-location-two {
+  line-height: 1.8;
+  margin-block: 30px;
+  color: #7c7b7a;
+}
